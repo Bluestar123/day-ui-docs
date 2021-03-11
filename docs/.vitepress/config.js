@@ -1,4 +1,4 @@
-const base = process.env.NODE_ENV === 'production' ? '/day-ui' : ''
+const base = process.env.NODE_ENV === 'production' ? '/day-ui-doc' : ''
 const { resolve } = require('path')
 
 module.exports = {
