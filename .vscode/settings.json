@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  // "workingDirectories": [
+  //     "./",
+  //     "./docs"
+  // ]
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
