@@ -3,6 +3,17 @@ const { resolve } = require('path')
 
 module.exports = {
   title: 'day-ui',
+  head: [
+    // 全局样式
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href:
+          'http://static-6e274940-2377-4243-9afa-b5a56b9ff767.bspapp.com/css/day-ui-style.css'
+      }
+    ]
+  ],
   description: 'A Component For Vue3',
   // 扫描srcIncludes里面的 *.md文件
   srcIncludes: ['src'],
@@ -39,14 +50,14 @@ module.exports = {
         sidebar: [
           { text: 'Getting Started', link: '/en/' },
           { text: 'Button', link: '/en/components/button/' },
-          { text: '常见问题', link: '/en/components/issues/' }
+          { text: 'Issues', link: '/en/components/issues/' }
         ]
       }
     },
     search: {
       searchMaxSuggestions: 10
     },
-    repo: 'daywang/day-ui',
+    repo: 'Bluestar123/day-ui-docs',
     repoLabel: 'Github',
     lastUpdated: true,
     prevLink: true,
