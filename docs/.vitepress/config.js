@@ -36,7 +36,9 @@ module.exports = {
         nav: [{ text: '指南', link: '/' }],
         sidebar: [
           { text: '介绍', link: '/' },
-          { text: 'Button', link: '/components/button/' },
+          { text: 'Button 按钮', link: '/components/button/' },
+          { text: '按钮组', link: '/components/buttonGroup/' },
+          { text: 'Icon 图标', link: '/components/icon/' },
           { text: '常见问题', link: '/components/issues/' }
         ]
       },
@@ -50,6 +52,8 @@ module.exports = {
         sidebar: [
           { text: 'Getting Started', link: '/en/' },
           { text: 'Button', link: '/en/components/button/' },
+          { text: 'ButtonGroup', link: '/components/buttonGroup/' },
+          { text: 'Icon', link: '/en/components/icon/' },
           { text: 'Issues', link: '/en/components/issues/' }
         ]
       }

@@ -42,7 +42,15 @@ map:
 
 ## Props
 
-| 参数  | 说明 |   类型 |         值 |
-| ----- | ---: | -----: | ---------: |
-| size  | 大小 | string | 例如'16px' |
-| color | 颜色 | string |  例如'red' |
+| 参数       |           说明 |    类型 |                                                     可选值 | 默认值  |
+| ---------- | -------------: | ------: | ---------------------------------------------------------: | ------- |
+| size       |           大小 |  string |                            'large'/'medium'/'small'/'mini' | medium  |
+| type       |           类型 |  string | primary / success / warning / danger / info / text/default | default |
+| plain      |       是否朴素 | boolean |                                                          - | false   |
+| round      |       是否圆角 | boolean |                                                          - | false   |
+| circle     |       是否圆形 | boolean |                                                          - | false   |
+| loading    |     是否加载中 | boolean |                                                          - | false   |
+| disabled   |       是否禁用 | boolean |                                                          - | false   |
+| icon       |       左侧图标 |  string |                                                          - | -       |
+| autofocus  |           聚焦 | boolean |                                                          - | false   |
+| nativeType | 原生 type 属性 |  string |                                        button/submit/reset | button  |
