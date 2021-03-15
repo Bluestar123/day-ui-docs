@@ -10,7 +10,7 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'http://static-6e274940-2377-4243-9afa-b5a56b9ff767.bspapp.com/css/day-ui-style.css'
+          'https://static-6e274940-2377-4243-9afa-b5a56b9ff767.bspapp.com/css/day-ui-style.css'
       }
     ]
   ],
