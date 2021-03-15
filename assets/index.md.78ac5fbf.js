@@ -1,1 +1,0 @@
-import{o as t,c as e,a}from"./app.ae69ed20.js";const n={components:{}},r='{"title":"","description":"","frontmatter":{},"relativePath":"index.md","lastUpdated":1615370238686}',o=a("p",null,"在这里写介绍文档。",-1);n.render=function(a,n,r,d,p,i){return t(),e("div",null,[o])};export default n;export{r as __pageData};
